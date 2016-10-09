@@ -1,0 +1,24 @@
+html, body{
+  background: $bg-html;
+}
+
+body{
+  &.no-top-space{
+    #main-content{
+      padding-top: 0;
+    }
+  }
+  &.homepage{
+    #main-content{
+      padding-top: 0;
+    }
+  }
+}
+
+.page_links a {
+  color:black;
+  margin:10px;
+}
+.current_page span{
+  color:cyan;
+}

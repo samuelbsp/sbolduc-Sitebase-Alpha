@@ -1,0 +1,73 @@
+@media #{$media-tablet-less} {
+/*
+ _   _                _
+| | | | ___  __ _  __| | ___ _ __
+| |_| |/ _ \/ _` |/ _` |/ _ \ '__|
+|  _  |  __/ (_| | (_| |  __/ |
+|_| |_|\___|\__,_|\__,_|\___|_|
+
+*/
+  .main-content{margin-top:100px;}
+  .top-bar{display:none;}
+  header .main-menu{
+    height:100px;
+    .logo{width:50%;}
+    .nav{
+      &.desktop{display:none;}
+      &.mobile{display:block;}
+    }
+    .mobile-menu-icon{
+      display:block;
+    }
+  }
+  .logo-section .col-lg-3{text-align:center;}
+/*
+ _____           _
+|  ___|__   ___ | |_ ___ _ __
+| |_ / _ \ / _ \| __/ _ \ '__|
+|  _| (_) | (_) | ||  __/ |
+|_|  \___/ \___/ \__\___|_|
+
+*/
+footer{
+  .col-lg-3{text-align:center;}
+  ul{
+    li{
+      display:block;
+      text-align:center;
+      margin:1em 0;
+      font-size:$size-regular;
+      a{
+        display:block;
+        text-align:center;
+        font-size:$size-medium;
+      }
+    }
+  }
+  .bottom-band{margin-top:2em;}
+}
+
+/*
+  ___  _   _
+ / _ \| |_| |__   ___ _ __   _ __   __ _  __ _  ___  ___
+| | | | __| '_ \ / _ \ '__| | '_ \ / _` |/ _` |/ _ \/ __|
+| |_| | |_| | | |  __/ |    | |_) | (_| | (_| |  __/\__ \
+ \___/ \__|_| |_|\___|_|    | .__/ \__,_|\__, |\___||___/
+                            |_|          |___/
+*/
+  .realisation-menu{
+    .plus-btn{margin-bottom:2em;}
+  }
+
+  .bottom-band-realisation{
+    height:auto;
+    padding-bottom:2em;
+  }
+
+  .top-band.realisation{
+    h1{
+      font-size:1.5em;
+      span{font-size:1.7em;}
+    }
+  }
+}

@@ -1,0 +1,166 @@
+.main-content{
+  margin-top:185px;
+}
+.entete{
+  width:100%;
+  background-color:$light-color;
+  .index-container{
+    width:95%;
+    margin:0 2.5%;
+  }
+  h1{
+    font-size:$size-big;
+    font-weight:$fw-xbold;
+    color:$colorful;
+    text-align:center;
+    margin-bottom:0;
+    text-transform:uppercase;
+  }
+  img{
+    width:100%;
+    margin:2em 0;
+  }
+  p.subtitle{
+    color:$colorful;
+    font-weight:$fw-medium;
+    font-size:$size-large;
+    text-align:center;
+    margin-bottom:2em;
+  }
+}
+.expertise{
+  background-color:$colorful;
+  padding-bottom:220px;
+  h2{
+    font-weight:$fw-xlight;
+    font-size:$size-larger;
+    line-height:0.9em;
+    text-transform:none;
+    color:$light-color;
+    span{
+      font-weight:$fw-bold;
+    }
+  }
+  p{
+    color:$light-color;
+    font-weight:$fw-xlight;
+    font-size:$size-medium;
+    &.service-title{
+      text-align:center;
+      font-size:$size-larger;
+      line-height:0.9em;
+      margin-top:1em;
+      margin-bottom:40px;
+      span{
+        font-weight:$fw-bold;
+      }
+    }
+  }
+  .service-container{
+    width:85%;
+    margin:0 7.5%;
+    background-color:#00488c;
+  }
+}
+.realisation-text{
+  position:relative;
+  width:100%;
+  background-color:$light-color;
+  .blue-band{
+    position:absolute;
+    top:0px;
+    width:100%;
+    height:250px;
+    background-color:$colorful;
+  }
+  .colorful-band{
+    position:absolute;
+    top:0px;
+    width:100%;
+    height:250px;
+    background-color:#00488c;
+  }
+  .container-realisation-text{
+    width:85%;
+    margin:0 7.5%;
+    background-color:#e1e1e1;
+    margin-top:-250px;
+    position:relative;
+    padding-top:2em;
+    .img-block{
+      width:85%;
+      margin:0 7.5%;
+      height:325px;
+      position:relative;
+      overflow:hidden;
+      z-index:10;
+      background-size:cover;
+      background-position:center center;
+      &.commercial{background-image:url("/assets/img/pages/ventilation-commercial.jpg");}
+      &.residentielle{background-image:url("/assets/img/pages/ventilation-residentielle.jpg");}
+      &.institutionnelle{background-image:url("/assets/img/pages/ventilation-institutionnelle.jpg");}
+    }
+    .text-block{
+      width:85%;
+      margin:0 auto;
+      z-index:15;
+      padding-bottom:1em;
+      h3{
+        font-size:$size-large;
+        color:$dark-color;
+        line-height:0.9em;
+        font-weight:$fw-xlight;
+        text-transform:none;
+        margin-bottom:0.5em;
+        span{font-weight:$fw-medium;}
+      }
+      p{
+        color:$dark-color;
+        font-size:$size-medium;
+        font-weight:$fw-xlight;
+        line-height:1.2em;
+      }
+    }
+  }
+}
+.bande-fournisseurs{
+  background-color:$light-color;
+  h3{
+    font-size:$size-bigger;
+    color:$dark-color;
+    line-height:1em;
+    font-weight:$fw-xlight;
+    text-transform:none;
+    margin-bottom:0.5em;
+    text-align:center;
+    margin-top:0;
+    span{font-weight:$fw-bold;}
+  }
+  p{
+    text-align:center;
+    font-weight:$fw-light;
+    margin-bottom:3em;
+  }
+}
+.bande-expert{
+  background-color:$colorful;
+    h3{
+    font-size:$size-larger;
+    color:$light-color;
+    line-height:0.9em;
+    font-weight:$fw-xlight;
+    text-transform:none;
+    margin-bottom:0.5em;
+    margin-top:0;
+    span{font-weight:$fw-bold;}
+  }
+  p{
+    color:$light-color;
+    font-weight:$fw-xlight;
+    font-size:$size-medium;
+  }
+  .logo-section{
+    margin-top:1.8em;
+    img{max-width:70%;}
+  }
+}

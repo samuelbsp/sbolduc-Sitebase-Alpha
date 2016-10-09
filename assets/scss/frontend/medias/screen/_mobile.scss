@@ -1,0 +1,9 @@
+@media #{$media-mobile} {
+  .logo-section .mobile-spacing{
+  	margin-bottom:1.5em;
+  }
+	.fournisseurs .logo-section{
+		.row{margin-bottom: 0;}
+		img{margin-bottom:1.5em;}
+	}
+}

@@ -1,0 +1,13 @@
+// PUT YOUR SPECIAL MEDIAS HERE !
+@media screen and (max-width: 1345px) {
+  header .main-menu .nav{
+    ul{float:right;}
+    .contact-btn{
+      display:none;
+    }
+  }
+}
+@media screen and (max-width: 450px) {
+  header .main-menu .logo{width:70% !important;}
+  header .main-menu .mobile-menu-icon{right:20px;}
+}
